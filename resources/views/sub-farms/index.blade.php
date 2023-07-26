@@ -25,6 +25,7 @@
                                 <th>{{ __('common.qty') }}</th>
                                 <th>{{ __('common.died_qty') }}</th>
                                 <th>{{ __('common.remaining_qty') }}</th>
+                                <th>{{ __('common.product_qty') }}</th>
                                 <th>{{ __('common.description') }}</th>
                                 <th>{{ __('common.release') }}</th>
                                 <th>{{ __('common.created_at') }}</th>
@@ -53,6 +54,7 @@
                                     <td>{{ $item['qty'] }}</td>
                                     <td>{{ $item['died_qty'] }}</td>
                                     <td>{{ $item['remaining_qty'] }}</td>
+                                    <td>{{ $item['product_qty'] }}</td>
                                     <td>{{ $item['description'] }}</td>
                                     <td>{{ $item['release'] }}</td>
                                     <td>{{ $item['created_at'] ? date('d-m-Y H:i', strtotime($item['created_at'])) : 'ไม่ระบุ' }}
